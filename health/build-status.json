@@ -1,5 +1,5 @@
 {
-  "status": "built-artifact-publication-blocked",
+  "status": "built-artifact-push-blocked",
   "local_build": "pass",
   "tests": "3 passed",
   "rdf_parse": "pass (full artifact; 18600 distinct triples)",
