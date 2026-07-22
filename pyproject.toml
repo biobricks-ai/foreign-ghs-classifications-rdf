@@ -1,0 +1,11 @@
+[project]
+name = "foreign-ghs-classifications-rdf"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["pyarrow>=18", "rdflib>=7"]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

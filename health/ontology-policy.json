@@ -1,0 +1,16 @@
+{
+  "approved_namespaces": [
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "http://www.w3.org/2000/01/rdf-schema#",
+    "http://www.w3.org/2004/02/skos/core#",
+    "http://www.w3.org/2002/07/owl#",
+    "http://purl.org/dc/terms/",
+    "http://www.w3.org/ns/prov#",
+    "http://purl.obolibrary.org/obo/",
+    "http://semanticscience.org/resource/"
+  ],
+  "local_namespaces": ["https://biobricks.ai/malaysia-ghs/", "https://biobricks.ai/compound/"],
+  "allowed_classes": ["https://biobricks.ai/endpoint/ghs-hazard-classification"],
+  "allowed_predicates": ["https://biobricks.ai/ontology/classification"],
+  "min_score": 80
+}

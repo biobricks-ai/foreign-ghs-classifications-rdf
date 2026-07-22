@@ -1,0 +1,11 @@
+{
+  "status": "built-artifact-publication-blocked",
+  "local_build": "pass",
+  "tests": "3 passed",
+  "rdf_parse": "pass (full artifact; 18600 distinct triples)",
+  "coverage_thresholds": "pass (228/228 eligible rows; 1 appendix-bleed row explicitly excluded; 100% eligible mapped cells)",
+  "ontology_policy": "pass (score 85; no novel classes or predicates)",
+  "artifact": "brick/foreign-ghs-classifications-rdf.nt",
+  "artifact_push": "blocked",
+  "blocker": "Malaysia DOSH 2014 source asserts government copyright and states no open redistribution license; obtain a reuse determination before publishing derived row-level RDF."
+}

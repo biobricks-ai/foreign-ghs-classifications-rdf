@@ -1,0 +1,25 @@
+{
+  "source": {
+    "tables": 1,
+    "rows": 229,
+    "eligible_rows": 228,
+    "excluded_rows": 1,
+    "nonempty_cells": 1374
+  },
+  "rdf": {
+    "triples": 18600,
+    "classification_observations": 1186
+  },
+  "coverage": {
+    "record_count_coverage": 1.0,
+    "identifier_row_coverage": 1.0,
+    "mapped_cell_coverage": 1.0
+  },
+  "deduplication": {
+    "included_table": "malaysia_ghs",
+    "excluded_existing_tables": [
+      "australia_ghs",
+      "korea_ghs"
+    ]
+  }
+}

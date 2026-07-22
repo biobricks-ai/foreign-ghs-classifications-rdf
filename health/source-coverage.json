@@ -1,0 +1,10 @@
+{
+  "thresholds": {
+    "record_count_coverage": 1.0,
+    "identifier_row_coverage": 1.0,
+    "mapped_cell_coverage": 1.0
+  },
+  "eligible_row_rule": "A Malaysia row having a valid CAS RN and 1-50 parsed classifications is eligible; the final Zirconium row is excluded because PDF extraction absorbed the 3252-fragment document appendix.",
+  "excluded_rows_must_be_counted": true,
+  "intentional_table_exclusions": ["australia_ghs", "korea_ghs"]
+}

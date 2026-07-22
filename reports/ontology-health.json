@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "blank_nodes": 0,
+    "classes": 3,
+    "identifier_subjects": 1414,
+    "labeled_typed_subjects": 1415,
+    "linked_identifier_subjects": 1,
+    "measurements": 0,
+    "measurements_with_units": 0,
+    "predicates": 13,
+    "provenance_subjects": 1186,
+    "subjects": 1415,
+    "triples": 18600,
+    "typed_subjects": 1415
+  },
+  "findings": [
+    {
+      "code": "unlinked_identifier_ratio",
+      "severity": "warning",
+      "threshold": 0.25,
+      "value": 0.999293
+    }
+  ],
+  "inputs": [
+    "brick/foreign-ghs-classifications-rdf.nt"
+  ],
+  "metrics": {
+    "blank_node_ratio": 0.0,
+    "measurement_without_unit_ratio": 0.0,
+    "novel_class_ratio": 0.0,
+    "novel_predicate_ratio": 0.0,
+    "unlabeled_typed_ratio": 0.0,
+    "unlinked_identifier_ratio": 0.999293,
+    "untyped_subject_ratio": 0.0
+  },
+  "passed": true,
+  "schema_version": 1,
+  "score": 85.0,
+  "vocabulary": {
+    "novel_classes": [],
+    "novel_predicates": []
+  }
+}

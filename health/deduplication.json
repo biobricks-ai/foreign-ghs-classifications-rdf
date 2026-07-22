@@ -1,0 +1,22 @@
+{
+  "source_tables": {
+    "australia_ghs": {
+      "rows": 7070,
+      "decision": "excluded-existing-authority-evidence",
+      "existing_graph": "pubchem-ghs-kg",
+      "reason": "Both derive Safe Work Australia HCIS GHS evidence; copying this table would create overlapping Australian authority assertions."
+    },
+    "korea_ghs": {
+      "rows": 2500,
+      "decision": "excluded-exact-source-alias",
+      "existing_graph": "korea-ghs-kg",
+      "reason": "The existing graph transforms the same NIER/ME 2500-row Excel export."
+    },
+    "malaysia_ghs": {
+      "rows": 229,
+      "decision": "included-distinct-jurisdiction",
+      "existing_graph": null,
+      "reason": "No Malaysian DOSH GHS graph was present in the KG manifest."
+    }
+  }
+}

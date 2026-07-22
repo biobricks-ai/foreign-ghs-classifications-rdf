@@ -1,0 +1,11 @@
+stages:
+  build:
+    cmd: uv run python stages/convert.py
+    deps:
+      - .bb/dependencies.txt
+      - stages/convert.py
+    outs:
+      - brick/foreign-ghs-classifications-rdf.nt
+    metrics:
+      - reports/source-coverage.json:
+          cache: false
